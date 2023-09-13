@@ -1,0 +1,31 @@
+*
+{
+    background-color: rgb(207, 152, 152);
+}
+h1{
+    padding: 10px; /* Add padding to create space between text and border */
+    border: 2px solid #333; /* Add a solid border with a color of your choice */
+    display: flex; /* Make the border fit around the text, not the full width of the container */
+    flex-direction: column;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 10px;
+}
+body{
+    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+text-align: center;
+}
+.list{
+    list-style: none;
+    text-align: left; 
+    margin-top: 30px;  
+}
+ul {
+    list-style: none; /* Remove default list styles */
+    padding: 0; /* Remove default list padding */
+    text-align: center; /* Center the list horizontally */
+}
+
+li {
+    margin: 10px 0; 
+}
