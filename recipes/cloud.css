@@ -1,5 +1,51 @@
 *
 {
         font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+        background-color: rgb(207, 152, 152);
 
 }
+.container{
+        display: flex;
+        flex-direction: row;
+    }
+    .cloud.img{
+        display: flex;
+        justify-content: right;
+        align-items: right;
+    }
+    .masala-tea{
+    height: 200px;
+    }
+    .cloud-ingredients,.cloud-steps{
+        padding-left: 10px;
+    }
+    ul,ol{
+        line-height: 20px;
+    }
+    .cloud-ingredients{
+        border-right: 2px solid black;
+    }
+    h1{
+        border: 2px solid #333;
+        background-color: rgb(113, 165, 165);
+        border-radius: 10px;
+        margin-right: 70%;
+    width: 650px;
+    padding-left: 15px;
+    }
+    body{
+        font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+    }
+    @media (max-width: 768px) {
+        .container {
+            flex-direction: column; /* Switch to a column layout for smaller screens */
+        }
+    
+        h1 {
+            width: 100%; /* Make it full-width on smaller screens */
+            margin-right: 0; /* Remove margin-right */
+        }
+        .cloud-ingredients{
+            border-right: none;
+        }
+    }
